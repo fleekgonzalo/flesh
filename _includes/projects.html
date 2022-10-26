@@ -1,29 +1,47 @@
 <div class="user-details">
-  <h1> Featured Projects </h1>
+  <h1> Stuff I've been doing this month </h1>
 </div>
 <div class="user-projects">
   <div class="images-right">
-    <img alt="mountains" src="{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}" />
+    <iframe width="420" height="250"
+src="https://www.youtube.com/embed/ScglDSi9KUs">
+</iframe>
   </div>
   <div class="contents">
-    <h3> Project Title </h3>
-    <ul>
-      <li> Featured Skills</li>
-    </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
+    <h3> Hyperdemon </h3>
+    <p><i>I've been playing a shitload of Hyperdemon lately. It's such a cool game, move with style, kill demons, and grind until you rank up in the ladder. It's the sequel to Sorath's studio <a href="https://store.steampowered.com/app/422970/Devil_Daggers/"target="_blank">Devil Daggers</a>, but the scoring works different: instead of surviving for as long as you can, in this game you need to kill as much shit as you can, and as fast as you can.</i></p>
+    <a class="project-link" href="https://store.steampowered.com/app/1743850/HYPER_DEMON/" target="_blank">Check it out on Steam!</a>
   </div>
 </div>
+
 <div class="user-projects">
   <div class="images-left">
-    <img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />
+    <span> Monuments - Animus </span><br>
+    <audio controls id="myaudio3">
+        <source src="/assets/audio/animus.mp3" type="audio/mp3"><br>
+    </audio><br>
+  <span> Megadeth - Mission to mars </span><br>
+    <audio controls id="myaudio1">
+        <source src="/assets/audio/megaTUKA.mp3" type="audio/mp3">
+    </audio><br>
+  <span> Slash - Anastasia </span><br>
+    <audio controls id="myaudio2">
+        <source src="/assets/audio/slash.mp3" type="audio/mp3">
+    </audio><br>
   </div>
   <div class="contents-right">
-    <h3> Project Title </h3>
-    <ul>
-      <li> Featured Skills</li>
-    </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
+    <h3> Some riffs I've been practicing </h3>
+    <p><i>These are some random riffs that I never really got to master or just simply didn't get around to turn into videos. I usually play pretty hard stuff, so bare with the errors and the lack of post-processing and editing, as these are mostly raw takes.</i></p>
+    
   </div>
 </div>
+
+<script>
+  var audio = document.getElementById("myaudio1");
+  audio.volume = 0.1;
+  var audio = document.getElementById("myaudio2");
+  audio.volume = 0.1;
+  var audio = document.getElementById("myaudio3");
+  audio.volume = 0.1;
+  
+</script>
