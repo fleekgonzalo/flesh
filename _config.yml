@@ -1,13 +1,13 @@
 # Site settings
-title: A blog about lorem ipsum dolor sit amet
-description: A blog about lorem ipsum dolor sit amet
+title: flesh and the power it holds ~
+description: Get to know flesh.
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: flesh
-user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
-user_title: CS @ Fleek & PsychedelicDAO
+user_description: My name is Gonzalo Antonicelli, I'm 28 years old, and I'm based in Buenos Aires, Argentina, in the beautiful neighborhood of Palermo. I've worked as a QA Tester, iOS front-end developer, DevOps engineer. Now I'm working my first international job, in a web3 / crypto enviroment where I'm constantly learning new and exciting stuff. I'm currently leading the Customer Support area at Fleek, a platform that allows you to deploy to IPFS and the Internet Computer.
+user_title: CS for Fleek & PsychedelicDAO
 email: gonzalo@fleek.com
 twitter_username: psyflesh
 github_username:  fleekgonzalo
