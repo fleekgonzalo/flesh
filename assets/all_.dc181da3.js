@@ -1,1 +1,1 @@
-import{d as t,u as o,c as a,t as s,e as c,o as r,K as e}from"./app.01ad8ba0.js";const l=t({__name:"[...all]",setup(u){const{t:n}=o();return(f,p)=>(r(),a("div",null,s(c(n)("not-found")),1))}});typeof e=="function"&&e(l);export{l as default};
+import{d as t,u as o,c as a,t as s,e as c,o as r,K as e}from"./app.01ad8ba0.js";const l=t({__name:"[all]",setup(u){const{t:n}=o();return(f,p)=>(r(),a("div",null,s(c(n)("not-found")),1))}});typeof e=="function"&&e(l);export{l as default};
