@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "gulp"
+    "build": "cp _redirects _site/"
   },
   "author": "Nathan Randecker",
   "license": "ISC",
