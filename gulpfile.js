@@ -20,6 +20,14 @@ gulp.task('jekyll-build', function (done) {
 });
 
 /*
+ * Copy _redirects file to the _site directory
+ */
+gulp.task('copy-redirects', function () {
+	return gulp.src('_redirects')
+		.pipe(gulp.dest('_site/'));
+});
+
+/*
  * Rebuild Jekyll & reload browserSync
  */
 gulp.task('jekyll-rebuild', gulp.series(['jekyll-build'], function (done) {
